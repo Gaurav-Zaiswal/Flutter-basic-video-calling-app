@@ -24,6 +24,12 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<!-- camera, microphone permission for ios starts (required for jitsi)-->
+	<key>NSCameraUsesDesription</key>
+	<string>$(PRODUCT_NAME)Needs access to camera for video meetings</string>
+	<key>NSMicrophoneUsesDesription</key>
+	<string>$(PRODUCT_NAME)Needs access to microphone for meetings</string>
+	<!-- camera encryption for ios end -->
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
