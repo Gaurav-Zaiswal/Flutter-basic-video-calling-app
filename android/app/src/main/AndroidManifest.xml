@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="videoconference.video_conference">
+    package="videoconference.video_conference"
     xmlns:tools="http://schemas.android.com/tools">  <!-- Added this -->
+   
+   <!-- Added 'tools:replace="android:label"' as well below -inside application -->
    <application
+        tools:replace="android:label"   
         android:label="video_conference"
         android:icon="@mipmap/ic_launcher">
         <activity
