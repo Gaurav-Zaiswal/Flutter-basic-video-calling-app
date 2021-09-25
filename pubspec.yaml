@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   jitsi_meet: ^4.0.0
   flutter_gradient_colors: ^2.1.1
+  pin_code_fields:
   get: ^4.3.8
 
 dev_dependencies:
